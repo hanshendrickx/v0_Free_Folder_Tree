@@ -1,0 +1,52 @@
+================================================================================
+FREE PROFESSIONAL FOLDER TREE GENERATOR - INSTALLATION
+AI Development Carousel: v0 Enhanced
+================================================================================
+
+Created Free_Folder_Tree directory
+Created Output directory
+        1 file(s) copied.
+
+Installing Python dependencies...
+Requirement already satisfied: Pillow in c:\users\hansh\appdata\local\programs\python\python313\lib\site-packages (11.3.0)
+Collecting svgwrite
+  Downloading svgwrite-1.4.3-py3-none-any.whl.metadata (8.8 kB)
+Requirement already satisfied: reportlab in c:\users\hansh\appdata\local\programs\python\python313\lib\site-packages (4.4.3)
+Requirement already satisfied: charset-normalizer in c:\users\hansh\appdata\local\programs\python\python313\lib\site-packages (from reportlab) (3.4.2)
+Downloading svgwrite-1.4.3-py3-none-any.whl (67 kB)
+Installing collected packages: svgwrite
+Successfully installed svgwrite-1.4.3
+
+================================================================================
+INSTALLATION COMPLETE!
+================================================================================
+
+Installation Directory: C:\Users\hansh\tools\Free_Folder_Tree
+Output Directory: C:\Users\hansh\tools\Free_Folder_Tree\Output
+
+USAGE EXAMPLES:
+  Simple:     python "C:\Users\hansh\tools\Free_Folder_Tree\Free_Folder_Tree.py" C:\Users
+  Beautiful:  python "C:\Users\hansh\tools\Free_Folder_Tree\Free_Folder_Tree.py" . --style artisanal --icons
+  Perfect:    python "C:\Users\hansh\tools\Free_Folder_Tree\Free_Folder_Tree.py" . --style artisanal --icons --formats txt png svg --depth 3
+
+For help:     python "C:\Users\hansh\tools\Free_Folder_Tree\Free_Folder_Tree.py" --help
+
+================================================================================
+(c) 2024-2025 Hans Hendrickx MD PhD and Karl Hendrickx MSc
+AI Development Carousel: v0 Enhanced
+================================================================================
+Press any key to continue . . .
+
+c:\Users\hansh\envs\v0FFT\v0_Free_Folder_Tree>python Free_Folder_Tree.py . 2
+usage: Free_Folder_Tree.py [-h] [--depth {1,2,3,4,5}] [--max-files MAX_FILES] [--style {simple,artisanal,minimal}] [--icons] [--hidden] [--sizes]
+                           [--formats {txt,png,svg,pdf} [{txt,png,svg,pdf} ...]] [--exclude EXCLUDE [EXCLUDE ...]]
+                           path
+Free_Folder_Tree.py: error: unrecognized arguments: 2
+
+c:\Users\hansh\envs\v0FFT\v0_Free_Folder_Tree>python Free_Folder_Tree.py . 3 beautiful
+usage: Free_Folder_Tree.py [-h] [--depth {1,2,3,4,5}] [--max-files MAX_FILES] [--style {simple,artisanal,minimal}] [--icons] [--hidden] [--sizes]
+                           [--formats {txt,png,svg,pdf} [{txt,png,svg,pdf} ...]] [--exclude EXCLUDE [EXCLUDE ...]]
+                           path
+Free_Folder_Tree.py: error: unrecognized arguments: 3 beautiful
+
+c:\Users\hansh\envs\v0FFT\v0_Free_Folder_Tree>python Free_Folder_Tree.py . 1 simple

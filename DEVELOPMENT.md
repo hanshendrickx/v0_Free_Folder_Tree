@@ -1,3 +1,4 @@
+
 # Development Process - AI Collaboration
 
 This document details how the original command-line folder tree generator was enhanced using AI-assisted development with Vercel's v0.
